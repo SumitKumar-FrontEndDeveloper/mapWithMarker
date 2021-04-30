@@ -1,0 +1,109 @@
+
+.tabNew {
+    text-align: center;
+    border: 0.2px solid #db780f;
+}
+
+.headerTab {
+    margin: 0 !important;
+}
+.tabNew.active {
+    background-color: #db780f;
+    color:#fff;
+}
+.root-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    overflow: scroll;
+
+    margin-top:65px;
+}
+.mainBox {
+    border: 1px solid #db780f;
+    height: auto;
+    padding-bottom: 20px;
+    width: 65%;
+    height: 500px;
+    overflow: scroll;
+}
+.input-box {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+}
+.text-box {
+    width:70%;
+}
+.boxContainer{
+    padding: 17px;
+    margin-top: 10px;
+    overflow: scroll;
+
+}
+.lblheader{
+    text-align: center;
+    font-size: 23px;
+}
+.error-danger {
+    color:red;
+}
+.map-container{
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    height: 400px;
+}
+.btn-container{
+    width: 20%;
+    margin: 0 auto;
+    margin-left: 20px;
+}
+.loginBtn {
+    background: #db780f !important;
+    color:#fff;
+    border:1px solid #db780f !important; 
+    width: 100%;
+}
+.map-container {
+    position: relative;
+}
+.suggestion-container {
+    position:absolute;
+    z-index: 2;
+    top:40px;
+    background-color: #fff;
+}
+
+.listBox {
+    width:30%;
+    margin-left: 20px;
+    border: 1px solid #db780f;
+    height: 500px;
+    overflow: scroll;
+    
+}
+.itemContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 12px;
+}
+.listItem {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border: 1px solid rgb(223, 219, 219);
+    border-radius: 4px;
+    padding: 10px 10px;
+    justify-content: space-between;
+    margin: 10px 0px !important;
+}
+.listItem  .col-10  {
+    padding: 0 !important;
+}
+.listItem  .col-1  {
+    padding: 0 !important;
+}
